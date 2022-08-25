@@ -99,7 +99,7 @@ const handleAnswers = () => {
                 <p> Thanks for answering all those questions! Before you get started reviewing your results, please keep in mind that our customer base is very diverse and includes people of all ages who have different circumstances, family lives and backgrounds. </p>
               </div>
               <div id='copy-wrapper-right' className='lg:col-span-6'>
-              <p><span className='font-extrabold'>Our assessments are a guide only</span> and you might find that some answers don’t apply to you. We hope you’ll be able to take some of our money advice on board and you’ll find this has been a helpful exercise in assessing your relationship with money management.</p>
+              <p><span className='font-extrabold'>Our assessments are a guide only</span> and you might find that some answers don&apos;t apply to you. We hope you&apos;ll be able to take some of our money advice on board and you&apos;ll find this has been a helpful exercise in assessing your relationship with money management.</p>
               </div>
             </div>
           </div>
@@ -164,10 +164,10 @@ const handleAnswers = () => {
             <section id='copy-section' className='px-5 md:px-10 flex'>
               <div className='grid lg:grid-cols-12 gap-4 lg:gap-12 py-8 text-sm md:text-base'>
                 <div id='copy-wrapper-left' className='lg:col-span-6'>
-                  <p> Our pie chart shows your approximate average monthly spend in our five main categories. We have labelled whether we think this is a high, moderate or low spend – but please keep in mind that <span className='font-extrabold'>this is intended as a guide only and doesn’t consider your personal circumstances</span>.</p>
+                  <p> Our pie chart shows your approximate average monthly spend in our five main categories. We have labelled whether we think this is a high, moderate or low spend – but please keep in mind that <span className='font-extrabold'>this is intended as a guide only and doesn&apos;t consider your personal circumstances</span>.</p>
                 </div>
                 <div id='copy-wrapper-right' className='lg:col-span-6'>
-                  <p> We&apos;ve matched your answers to the multiple-choice questions with some personalised tips based on the answer you selected. If you read any of your results and feel that you would like to further explore the feedback you recieved, you can <a target="_blank" rel="noreferrer" className='copy-link' href='https://monzo.com/blog/how-money-works'>find details (and more guidance) on our 'How Money Works' blog </a>.</p>
+                  <p> We&apos;ve matched your answers to the multiple-choice questions with some personalised tips based on the answer you selected. If you read any of your results and feel that you would like to further explore the feedback you recieved, you can <a target="_blank" rel="noreferrer" className='copy-link' href='https://monzo.com/blog/how-money-works'>find details (and more guidance) on our &#39;How Money Works&#39; blog </a>.</p>
                 </div>
               </div>
             </section>
