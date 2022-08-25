@@ -50,12 +50,8 @@ function MyApp({ Component, pageProps }) {
     </Head>
     
     <Header 
-      questions={questions}
       currentQuestion={currentQuestion} 
       isNavEnabled={isNavEnabled} 
-      setCurrentQuestion={setCurrentQuestion}
-      setRangeValues={setRangeValues}
-      SetSelectedOptions={SetSelectedOptions}
     />
 
     <div className='min-h-screen flex flex-col'>
