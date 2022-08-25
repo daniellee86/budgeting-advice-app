@@ -144,7 +144,7 @@ export const advice = [
       ]
    },
     {
-      "advice": "You may want to consider a part-time job to supplement your income</a>. Plan your time carefully if you start working. Don't work so much that your focus on other things suffers. If you have caring responsibilities, make sure you have a good balance between your responsibilities and commitments so you're not overloaded.",
+      "advice": "You may want to consider a part-time job to supplement your income. Plan your time carefully if you start working. Don't work so much that your focus on other things suffers. If you have caring responsibilities, make sure you have a good balance between your responsibilities and commitments so you're not overloaded.",
       "questionOutput": 5,
       "possibleAnswers": [
          "5A",
@@ -152,7 +152,7 @@ export const advice = [
       ]
    },
     {
-      "advice": "Have you considered all your options? <a target=\"_blank\" style='color: #E64B5F; text-decoration: underline; letter-spacing: normal;'https://uk.indeed.com/career-advice/finding-a-job/best-ways-to-find-a-job'>There are many ways to research and apply for roles. Also make sure that you are recieving any benefits or financial support you are entitled to in order to help you secure work and not to fall into financial hardship. ",
+      "advice": "Have you considered all your options? <a target=\"_blank\" style='color: #E64B5F; text-decoration: underline; letter-spacing: normal;'https://uk.indeed.com/career-advice/finding-a-job/best-ways-to-find-a-job'>There are many ways to research and apply for roles<a/>. Also make sure that you are recieving any benefits or financial support you are entitled to in order to help you secure work and not to fall into financial hardship. ",
       "questionOutput": 5,
       "possibleAnswers": [
          "5C"
