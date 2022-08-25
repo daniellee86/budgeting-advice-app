@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Replica Pro", Helvetica, Arial;
+  @apply font-normal antialiased bg-monzo-black text-monzo-dark-black;
+}
+
+h1,
+h2 {
+}
+
+a {
+  @apply tracking-widest;
+}
+#advice-container a {
+  color: #e64b5f;
+  text-decoration: underline;
+  letter-spacing: normal;
+}
+
+.copy-link {
+  @apply tracking-normal text-monzo-red underline;
+}
+
+.active-answer {
+  @apply bg-monzo-red border-0;
+}
+
+.not-active-answer {
+  @apply bg-white border-2;
+}
+
+.question-card {
+  @apply transform transition scale-100 duration-300;
+  will-change: transform;
+}
+.question-card:hover {
+  @apply scale-105;
+}
+.question-card .tick-div {
+  @apply transition;
+}
+
+.question-card:hover .tick-div {
+  @apply border-monzo-dark-black border-opacity-50 transition;
+}
+.question-card:hover .tick-div p {
+  @apply text-monzo-dark-black text-opacity-100;
+}
+
+.question {
+  @apply py-1 lg:pt-0 flex-1 md:px-0 border-b-3 transition duration-500 ease-in-out whitespace-nowrap;
+}
+
+.question span {
+  @apply hidden md:inline;
+}
+
+button:focus-visible {
+  outline: 2px dotted red;
+  outline-offset: 0.1cm;
+}
+
+button.no-focus:focus-visible {
+  outline: none;
+  outline-offset: 0;
+}
+
+.rc-slider-custom-holder {
+}
+
+.rc-slider-custom-holder
+  .rc-slider-tooltip-placement-top
+  .rc-slider-tooltip-inner {
+  @apply bg-monzo-red rounded-none px-3 py-2 h-auto text-base text-opacity-80 text-white;
+}
+
+.rc-slider-custom-holder
+  .rc-slider-tooltip-placement-top
+  .rc-slider-tooltip-arrow {
+  border-top-color: theme("colors.monzo-red");
+}
+
+.rc-slider-custom-holder .rc-slider-mark-text {
+  top: 5px;
+}
+
+.rc-slider-custom-holder .rc-slider-dot {
+  @apply hidden;
+}
+
+.rc-slider-custom-holder .rc-slider-handle {
+  @apply focus:outline-dashed focus:outline-monzo-red outline-2;
+  background: url("../public/arrows.png") no-repeat center;
+  background-size: 50%;
+}
+
+.question-card {
+  @apply lg:min-h-[125px];
+}

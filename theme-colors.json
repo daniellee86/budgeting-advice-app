@@ -1,0 +1,13 @@
+{
+    "monzo-black": "#14233C",
+    "monzo-dark-black": "#0d1729",
+    "monzo-dark-grey": "#144673",
+    "monzo-red": "#E64B5F",
+    "monzo-blue": "#50b9dc",
+    "monzo-off-white": "#f5f5f5",
+    "monzo-results-red": "#E64B5F",
+    "monzo-results-orange": "#EB824B",
+    "monzo-results-green": "#9ABBA8",
+    "monzo-results-yellow": "#F5B946",
+    "current": "currentColor"
+}
