@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+﻿# Monzo Budgeting Quiz App
 
-## Getting Started
+https://monzo-budget-tool.vercel.app/
 
-First, run the development server:
+Welcome to the Monzo Budgeting App. I made this application to alleviate some of the strains and anxieties people are facing with the cost of living crisis in the UK.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The budgeting tool asks a series of questions before prompting users to provide thier average monthly outgoings across a range of categories.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The user is finally taken to a results page where thier spend amounts are broken down and compared with the national average for each category. This data visualistion allows users to effectively identify areas in which they might currently be overspending.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The user is then provided with a series of weighted responses (financial tips / advice / links) based on thier answers to questions. The app identifies both problematic and positive spend behaviour, providing advice and signposting to external services for those that need it and encouragement and positive reinforcement for those that know how to budget and save.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<img src="./logicOne.png" alt="logic image">
+<img src="./logicTwo.png" alt="logic image">
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
+FRONT END UI:
 
-To learn more about Next.js, take a look at the following resources:
+- Fully re-usable React - Components.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Styled using Tailwind CSS.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Routing handled with Next.JS native Page feature.
 
-## Deploy on Vercel
+- Dynamic Pages and Conditional Rendering with persistent Progress Bar.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- PAGES: HOME, QUESTIONS, SLIDERS, RESULTS.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Transitions Handled with Framer Motion.
+
+- Responsive design.
+
+<img src="./home.png" alt="home page image">
+<img src="./one.png" alt="questions page image">
+<img src="./two.png" alt="questions page image">
+
+---
+
+INTERACTIONS AND ACCESSIBIILTY:
+
+- Accessible to screen readers.
+
+- Appropriate levels of contrast and font sizing.
+
+- Sliders and buttons are tab-indexed making them accessible from the keyboard.
+
+- Good page load times
+
+<img src="./performance.png" alt="lighthouse">
+
+---
+
+Data Visualisation:
+
+- Various ways of user interaction throughout to keep the user entertained; questions, sliders.
+
+- SLiders where customised from the react sliders package. The package only provides basic sliders and it was a lot of work customising them to have unique tooltips etc
+
+- The spend breakdown chart comes from Chart.js. This was also customised to fit the style guidelines of the App.
+
+<img src="./three.png" alt="results image">
+<img src="./four.png" alt="results image">
+<img src="./five.png" alt="results image">
+<img src="./six.png" alt="results image">
+
+---
