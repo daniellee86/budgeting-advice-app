@@ -10,7 +10,7 @@ The user is finally taken to a results page where thier spend amounts are broken
 
 The user is then provided with a series of weighted responses (financial tips / advice / links) based on thier answers to questions. The app identifies both problematic and positive spend behaviour, providing advice and signposting to external services for those that need it and encouragement and positive reinforcement for those that know how to budget and save.
 
-<img src="./logicOne.png" alt="logic image">
+<img src="logicOne.png" alt="logic image">
 <img src="./logicTwo.png" alt="logic image">
 
 ---
