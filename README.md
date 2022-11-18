@@ -10,7 +10,7 @@ The user is finally taken to a results page where thier spend amounts are broken
 
 The user is then provided with a series of weighted responses (financial tips / advice / links) based on thier answers to questions. The app identifies both problematic and positive spend behaviour, providing advice and signposting to external services for those that need it and encouragement and positive reinforcement for those that know how to budget and save.
 
-<img src="logicOne.png" alt="logic image">
+<img src="./public/logicOne.png" alt="logic image">
 <img src="./public/logicTwo.png" alt="logic image">
 
 ---
@@ -31,9 +31,9 @@ FRONT END UI:
 
 - Responsive design.
 
-<img src="./home.png" alt="home page image">
-<img src="./one.png" alt="questions page image">
-<img src="./two.png" alt="questions page image">
+<img src="./public/home.png" alt="home page image">
+<img src="./public/one.png" alt="questions page image">
+<img src="./public/two.png" alt="questions page image">
 
 ---
 
@@ -47,7 +47,7 @@ INTERACTIONS AND ACCESSIBIILTY:
 
 - Good page load times
 
-<img src="./performance.png" alt="lighthouse">
+<img src="./public/performance.png" alt="lighthouse">
 
 ---
 
@@ -59,9 +59,9 @@ Data Visualisation:
 
 - The spend breakdown chart comes from Chart.js. This was also customised to fit the style guidelines of the App.
 
-<img src="./three.png" alt="results image">
-<img src="./four.png" alt="results image">
-<img src="./five.png" alt="results image">
-<img src="./six.png" alt="results image">
+<img src="./public/three.png" alt="results image">
+<img src="./public/four.png" alt="results image">
+<img src="./public/five.png" alt="results image">
+<img src="./public/six.png" alt="results image">
 
 ---
