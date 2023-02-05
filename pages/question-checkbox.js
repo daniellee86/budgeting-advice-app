@@ -274,7 +274,7 @@ export default function QuestionsPage({
           <motion.div
             key={imageData[currentQuestion]}
             initial={{ opacity: 0 }}
-            transition={{ ease: "easeInOut", delay: 0.7, duration: 0.8 }}
+            transition={{ ease: "easeInOut", duration: 0.7 }}
             animate={{ opacity: 1 }}
             viewport={{ once: true }}
             id="image-wrapper"
