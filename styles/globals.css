@@ -7,10 +7,6 @@ body {
   @apply font-normal antialiased bg-monzo-black text-monzo-dark-black;
 }
 
-h1,
-h2 {
-}
-
 a {
   @apply tracking-widest;
 }
@@ -68,9 +64,6 @@ button.no-focus:focus-visible {
   outline-offset: 0;
 }
 
-.rc-slider-custom-holder {
-}
-
 .rc-slider-custom-holder
   .rc-slider-tooltip-placement-top
   .rc-slider-tooltip-inner {
@@ -93,7 +86,7 @@ button.no-focus:focus-visible {
 
 .rc-slider-custom-holder .rc-slider-handle {
   @apply focus:outline-dashed focus:outline-monzo-red outline-2;
-  background: url("../public/arrows.png") no-repeat center;
+  background: url("../public/arrows.svg") no-repeat center;
   background-size: 50%;
 }
 
