@@ -1,6 +1,6 @@
 ﻿# Budgeting Quiz App
 
-https://monzo-budget-tool.vercel.app/
+https://cost-of-living-tool.vercel.app/
 
 Welcome to the Munzo Budgeting App. I made this application to alleviate some of the strains and anxieties people are facing with the cost of living crisis in the UK.
 
