@@ -8,7 +8,7 @@ const Footer = () => {
         id="content-wrapper"
         className="flex flex-col-reverse md:flex-row justify-between items-center mx-auto max-w-[1440px]"
       >
-        <p className="text-base">Copyright © 2022 - Daniel Clough</p>
+        <p className="text-base">Copyright © 2023 - Daniel Clough</p>
         <img src="footer-logo.svg" alt="logo" className="h-11 mb-4 md:mb-0" />
       </div>
     </div>
