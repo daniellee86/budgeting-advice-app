@@ -31,7 +31,6 @@ FRONT END UI:
 
 - Responsive design.
 
-<img src="./public/home.png" alt="home page image">
 <img src="./public/one.png" alt="questions page image">
 <img src="./public/two.png" alt="questions page image">
 
