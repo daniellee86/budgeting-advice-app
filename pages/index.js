@@ -29,7 +29,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="uppercase text-3xl md:text-6xl lg:text-4xl xl:text-5xl 2xl:text-6xl 4xl:text-7xl font-black leading-extra-tight mb-4 md:mb-5"
             >
-              Monzo budget management quiz
+              Munzo budget management quiz
             </motion.h1>
 
             {/* DIV WITH 80% WIDTH-*/}

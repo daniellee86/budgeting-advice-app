@@ -1,8 +1,8 @@
-﻿# Monzo Budgeting Quiz App
+﻿# Budgeting Quiz App
 
 https://monzo-budget-tool.vercel.app/
 
-Welcome to the Monzo Budgeting App. I made this application to alleviate some of the strains and anxieties people are facing with the cost of living crisis in the UK.
+Welcome to the Munzo Budgeting App. I made this application to alleviate some of the strains and anxieties people are facing with the cost of living crisis in the UK.
 
 The budgeting tool asks a series of questions before prompting users to provide thier average monthly outgoings across a range of categories.
 

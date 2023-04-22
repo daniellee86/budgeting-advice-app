@@ -37,11 +37,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>MONZO - Daniel Clough</title>
-        <meta
-          name="Monzo budget quiz app"
-          content="Monzo budget management quiz"
-        />
+        <title>Daniel Clough</title>
+        <meta name="budget quiz app" content="budget management quiz" />
         <link rel="icon" href="/favicon.ico" />
         <link
           href="./fonts/ReplicaPro-Bold.woff2"
