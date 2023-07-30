@@ -2,6 +2,14 @@
 
 ## https://cost-of-living-tool.vercel.app/  🚀
 
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white)
+
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
+
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+
+![Chart.js](https://img.shields.io/badge/-Chart.js-FF6384?style=flat&logo=chart-dot-js&logoColor=white)
+
 -  I made this application with the goal of alleviating some of the strains and anxieties people are facing with the cost of living crisis in the UK.
 
 -  The budgeting tool asks a series of questions before prompting users to provide thier average monthly outgoings across a range of categories.
