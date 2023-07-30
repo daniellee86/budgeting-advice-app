@@ -1,21 +1,22 @@
-﻿# Budgeting Quiz App
+﻿# Budgeting Advice application 💰
 
-https://cost-of-living-tool.vercel.app/
+## https://cost-of-living-tool.vercel.app/  🚀
 
-Welcome to the Munzo Budgeting App. I made this application to alleviate some of the strains and anxieties people are facing with the cost of living crisis in the UK.
+-  I made this application with the goal of alleviating some of the strains and anxieties people are facing with the cost of living crisis in the UK.
 
-The budgeting tool asks a series of questions before prompting users to provide thier average monthly outgoings across a range of categories.
+-  The budgeting tool asks a series of questions before prompting users to provide thier average monthly outgoings across a range of categories.
 
-The user is finally taken to a results page where thier spend amounts are broken down and compared with the national average for each category. This data visualistion allows users to effectively identify areas in which they might currently be overspending.
+- The user is finally taken to a results page where thier spend amounts are broken down and compared with the national average for each category. This data visualistion allows users to effectively identify areas in which they might currently be overspending.
 
-The user is then provided with a series of weighted responses (financial tips / advice / links) based on thier answers to questions. The app identifies both problematic and positive spend behaviour, providing advice and signposting to external services for those that need it and encouragement and positive reinforcement for those that know how to budget and save.
+-  The user is then provided with a series of weighted responses (financial tips / advice / links) based on thier answers to questions. The app identifies both problematic and positive spend behaviour, providing advice and signposting to external services for those that need it and encouragement and positive reinforcement for those that know how to budget and save.
 
-<img src="./public/logicOne.png" alt="logic image">
+---
+
 <img src="./public/logicTwo.png" alt="logic image">
 
 ---
 
-FRONT END UI:
+FRONT END UI: 🎨
 
 - Fully re-usable React - Components.
 
@@ -36,7 +37,7 @@ FRONT END UI:
 
 ---
 
-INTERACTIONS AND ACCESSIBIILTY:
+INTERACTIONS AND ACCESSIBIILTY: 💬
 
 - Accessible to screen readers.
 
@@ -50,7 +51,7 @@ INTERACTIONS AND ACCESSIBIILTY:
 
 ---
 
-Data Visualisation:
+Data Visualisation: 📊
 
 - Various ways of user interaction throughout to keep the user entertained; questions, sliders.
 
